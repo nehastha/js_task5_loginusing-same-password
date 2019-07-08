@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registration Form</title>
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./scss/all.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+<body>
+    <div id="wrapper">
+        <div class="background">
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                    <div class="container">
+                        <a class="navbar-brand" href="main/main.html">LOGO</a>
+                        <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button> -->
+                        
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent" margin-left-auto>
+                            <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="main/main.html">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./login/login.html">Login</a>
+                            </li>
+                            
+                    
+                        </div>
+                    </div>
+                </nav>
+            <div class="container">
+                <div class="row d-flex align-item-center">
+                    <!-- <div class="col-lg-3 imagewrapper">
+                        <p class="h1">Register Now!!!</p>
+                    </div> -->
+                    <div class="col-lg-5 form-wrapper">
+                        <form  class="reg-form" id="myform" >
+                            <p class="h2 text-center text">Registration Form</p>
+                            <div class="nameBox">
+                                <label class="bold">Name</label><br>
+                                <input type = "text" class="userName" id = "userRegname" placeholder="Name" autocomplete="off">
+                                <span id = "nameMessage" ></span>
+                                
+
+                            </div>
+                            <div class="addressBox">
+                                <label class="bold ">Address</label><br>
+                                <input type="text" class="userAddress" id= "userRegaddress" placeholder="Address" autocomplete="off">
+                                <span id = "addressMessage"></span>
+                                
+
+                            </div>
+
+                            <div class="phonenoBox">
+                                <label class="bold">Phone Number</label><br>
+                                <input type="text" class="userPhone" id = "userRegphone" placeholder="(+977)-123456" autocomplete="off">
+                                <span id = "phoneMessage" ></span>
+
+                            </div>
+
+                            <div class="emailBox">
+                                <label class="bold">Email</label><br>
+                                <input type="text" class="userEmail" id = "userRegemail" placeholder="Email-address" autocomplete="off">
+                                <span id = "emailMessage" ></span>
+
+                            </div>
+
+                            <!-- <div class="genderBox">
+                                <label class="bold">Gender</label>
+                                <input type="checkbox" class="userGender" id = "userRegGender1"><span class="gender1">Male</span>
+                                <input type="checkbox" class="userGender" id = "userRegGender2"><span class="gender2">Female</span>
+                            </div> -->
+
+                            <div class="passwordBox">
+                                <label class="bold">Password</label><br>
+                                <!-- <div class="eyeIcon"><i class="fa fa-eye" id="eye"></i></div> -->
+                                <input type="password" class="userPassword" id = "userRegpassword">
+                            
+                                <!-- <div class="eyeIcon"><i class="fa fa-eye" id="eye"></i></div> -->
+                                <span id = "passwordMessage" ></span>
+
+                            </div> 
+
+                            <div class="repasswordBox">
+                                <label class="bold">Re-enter the Password</label><br>
+                                <input type = "password" class="userRepassword" id = "userRegrepassword">
+                                <span id = "repasswordMessage" ></span>
+
+                            </div>
+
+                            <a href="login/login.html" class="alredyReg"><span ><small>Already Registered ??? </small></span></a>
+
+                            <div class="btnCenter text-center">
+                                <input type="submit" class="btn btn-success  regSubmit"  id = "formSubmit" value="Register">
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src = "register.js"></script>
+</body>
+</html>

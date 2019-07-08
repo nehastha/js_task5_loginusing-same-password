@@ -1,0 +1,43 @@
+.form-wrapper {
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 0 auto;
+  width: 800px;
+  margin-top: 5%;
+  background-color: #ffffff;
+  opacity: 0.9;
+}
+
+.background {
+  max-height: 100%;
+  background-image: -webkit-gradient(linear, left bottom, right top, from(#051937), color-stop(#004d7a), color-stop(#008793), color-stop(#00bf72), to(#a8eb12));
+  background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
+
+.text {
+  padding: 25px 0;
+}
+
+.bold {
+  margin-bottom: 2px;
+  color: #000000;
+}
+
+.userName, .userAddress, .userPhone, .userEmail, .userPassword, .userRepassword {
+  margin-bottom: 10px;
+  width: 100%;
+  border-radius: 5px;
+  height: 30px;
+}
+
+.regSubmit {
+  margin-bottom: 10px;
+}
+
+.userPassword {
+  position: relative;
+}
+
+.eyeIcon {
+  position: absolute;
+}

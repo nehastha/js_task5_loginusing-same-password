@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+}
+
+.bground{
+    background-image: linear-gradient(#845EC2, #D65DB1, #FF6F91, #FF9671, #FFC75F, #F9F871);
+    // background-image: url(/login/loginpic/background\ 1.jpg);
+    background-size: cover;
+    height: 620px;
+    // padding-top: 115px;
+    // max-height: 100%;
+}
+
+.extraWrap{
+    margin-top:50px;
+    padding-bottom:60px;
+}
+
+
+
+.loginWrap{
+    margin: 0 auto;
+    padding-top: 25px;
+    border: 1px solid  grey;
+    border-radius: 5px;
+    background-color:#ffffff;
+    opacity: 0.9;
+}
+
+.mailBox, .passBox, .submitBtn{
+    margin-bottom:25px;
+}
+
+.loginMail, .loginPass{
+    width: 100%;
+    border-radius: 10px;
+    height: 55px;
+}
+
+.submitBtn{
+    width: 200px;
+    height: 50px;
+}
+
+.buttonCenter{
+    margin-top: 40px;
+}
+
+
+
+.welcomePic{
+    
+    width: 20%;
+    height: 20%;
+}
+
+.head{
+    // margin-bottom: 90px;
+    padding: 30px;
+}
+
+.imgContain{
+    margin-top: 30px;
+}
